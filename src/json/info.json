@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Joel",
+                "last": "Kombila"
+            },
+            "location": {
+                "street": {
+                    "number": 1,
+                    "name": "Sample Street"
+                },
+                "city": "Pau",
+                "state": "Pyrénées Atlantique",
+                "country": "France",
+                "postcode": 64000,
+                "coordinates": {
+                    "latitude": "-3.7976",
+                    "longitude": "45.2862"
+                },
+                "timezone": {
+                    "offset": "+1:00",
+                    "description": "Paris"
+                }
+            },
+            "email": "jolmamboundou@gmail.com",
+            "login": {
+                "uuid": "972e6032-9f5e-497a-bfe2-06b6be107566",
+                "username": "blackbear446",
+                "password": "valdepen",
+                "salt": "8u3JDPC7",
+                "md5": "3e8d7a26e9293a543e26009590454509",
+                "sha1": "00cc8615a3c7b1d0653243d384ff769a401f8e6f",
+                "sha256": "94026a61f0085184c2a47b18205616900d5b24feb4e59620ed2184fa1acec2d1"
+            },
+            "dob": {
+                "date": "1985-09-12T13:43:06.630Z",
+                "age": 37
+            },
+            "registered": {
+                "date": "2010-10-09T06:55:12.781Z",
+                "age": 12
+            },
+            "phone": "05-10-43-34-24",
+            "cell": "06-01-85-77-85",
+            "id": {
+                "name": "INSEE",
+                "value": "2850856517416 56"
+            },
+            "picture": {
+                "large": "../img/moi.jfif",
+                "medium": "https://randomuser.me/api/portraits/med/women/67.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/67.jpg"
+            },
+            "nat": "FR"
+        }
+    ],
+    "info": {
+        "seed": "ee1bf312b05e8022",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}

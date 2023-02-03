@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Développeur fullstack en recherche d'emploi - Kombila Joël</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./src/css/base.css"/>
+        <link rel="stylesheet" href="./src/css/card.css"/>
+        <link rel="stylesheet" href="./src/css/thumbnail.css"/>
+        <link rel="stylesheet" href="./src/css/path.css"/>
+        <link rel="stylesheet" href="./src/css/skill-box.css"/>
+        <link rel="stylesheet" href="./src/css/list.css"/>
+        <link rel="favicon" href="./src/img/favicon.png"/>
+    </head>
+    <body>
+        <div class="page">
+            <div class="card" id="person">
+                <img id="person-picture" src="./src/img/moi.png"/>
+                <img id="person-country" src="./src/img/Roundel_of_Gabon.svg" alt="Gabon"/>
+                <section>
+                    <h1 id="person-fullname"></h1>
+                    <h2 id="person-job"></h2>
+                    <p>Hello, je suis <strong id="person-firstname"></strong>, <strong id="person-position"></strong> spécialisé(e) en <strong id="person-speciality"></strong> actuellement <strong id="person-company"></strong> dans la ville de <strong id="person-city">Nantes</strong>.</p>
+                    <div>
+                        <a class="button" target="_blank" id="person-email">M'envoyer un email</a>
+                        <span class="or"> ou </span>
+                        <a target="_blank" class="button" href="https://welovedevs.com">Voir mon CV</a>
+                    </div>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Compétences</h3>
+                    <ul class="list">
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                HTML/CSS
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                Typescript
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                Angular
+                                <div class="box-well">
+                                    Framework
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Python
+                                <div class="box-well">
+                                    Language
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Git
+                                <div class="box-well">
+                                    Versioning
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Kubernetes
+                                <div class="box-well">
+                                    Cloud
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Réalisations</h3>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?code)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Malware</span>
+                            <p class="thumbnail-title">Rust Malware </p>
+                            <p class="thumbnail-description">Dans le cadre d'un projet de groupe, réalisation d'un malware en Rust composé d'un beacon qui exécute les commandes sur un ordinateurs distant, et d'un serveur qui reçois le résultats de ces commandes</p>
+                            <div class="thumbnail-footer">
+                                <a href="https://github.com/Hiruurouge/Rust_Project" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?shop)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Website</span>
+                            <p class="thumbnail-title">E-Biking </p>
+                            <p class="thumbnail-description">Website d'e-commerce spécialisé dans la ventes de vélos électriques en Html/Css vanilla et PHP </p>
+                            <div class="thumbnail-footer">
+                                <a href="https://github.com/Hiruurouge/Bike-eshop" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?shop)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Networking</span>
+                            <p class="thumbnail-title">Ansible Vault and Docker </p>
+                            <p class="thumbnail-description">Ecriture de scripts d'automatisation du déploiement d'un environnement de développement local ou distant avec Ansible/Docker et Ansible-Vault</p>
+                            <div class="thumbnail-footer">
+                                <a href="https://github.com/Hiruurouge/Ansible_docker_vault" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Parcours</h3>
+                    <div class="path">
+                        <div class="step">
+                            <p class="step-title">Alternance - 2023</p>
+                            <p>Alternance au sein de Safran Helicopter Engine en développement fullstack Angular/Node et Cypress</p>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">CY-Tech - 2020-2023</p>
+                            <p>Etudiant en école d'ingénieur informatique à Pau spécialité Ingénieurie du Cloud</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <script src="./src/js/main.js"></script>
+    </body>
+</html>
